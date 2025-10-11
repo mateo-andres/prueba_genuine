@@ -15,7 +15,9 @@ export default function Mission() {
         allowfullscreen
       ></iframe>
       <article className="border-3 rounded-lg p-4 border-blue-900">
-        <Vision />
+        <figure className="py-6 p-2">
+          <Vision />
+        </figure>
         <h3 className="text-2xl font-bold">Nuestra visión</h3>
         <p>
           Queremos educar a miles de niños y jóvenes con los más altos estándares de calidad y pertinencia para que <b>descubran su felicidad</b> y
@@ -24,7 +26,9 @@ export default function Mission() {
         </p>
       </article>
       <article className="border-3 rounded-lg p-4 border-blue-900">
-        <Mision />
+        <figure className="py-6 p-2">
+          <Mision />
+        </figure>
         <h3 className="text-2xl font-bold">Nuestra visión</h3>
         <p>
           <b>Educar, empoderar y conectar</b> a nuestros estudiantes mediante experiencias de aprendizaje remoto que trasciendan las fronteras
