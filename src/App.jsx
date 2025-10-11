@@ -4,7 +4,7 @@ import WhoWeAre from "./components/sections/WhoWeAre";
 
 function App() {
   return (
-    <main className="grid gap-4 bg-[#efefef] px-4 py-8 ">
+    <main className="grid gap-4 bg-[#efefef] px-4 py-8 text-blue-900">
       <Header />
       <Mission />
       <WhoWeAre />
