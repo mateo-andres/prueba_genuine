@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { getApiUrl } from "../../config/api";
 
 const InputComponent = ({ label, name, type = "text", value, onChange, disabled }) => {
   return (
@@ -44,7 +43,7 @@ export default function CreateUser({ fetchMetrics }) {
   };
 
   const createStudent = async (studentData) => {
-    const response = await fetch(getApiUrl("students"), {
+    const response = await fetch("https://backgenuine-production.up.railway.app/students", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
