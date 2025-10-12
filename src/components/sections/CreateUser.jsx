@@ -43,7 +43,7 @@ export default function CreateUser({ fetchMetrics }) {
   };
 
   const createStudent = async (studentData) => {
-    const response = await fetch("https://backgenuine-production.up.railway.app/students", {
+    const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/students`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
