@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import CreateUser from "./CreateUser";
+import { getApiUrl } from "../../config/api";
 
 export default function World() {
   const [metrics, setMetrics] = useState(null);
@@ -9,7 +10,7 @@ export default function World() {
     try {
       setIsLoading(true);
 
-      const response = await fetch("/api/metrics");
+      const response = await fetch(getApiUrl("metrics"));
       const data = await response.json();
 
       setMetrics(data);
