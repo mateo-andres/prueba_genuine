@@ -48,7 +48,7 @@ export default function WhoWeAre() {
           <div className="relative">
             <img
               className="w-full h-full object-cover"
-              src="/src/assets/images/foto_bilinguismo.jpeg"
+              src="/images/foto_bilinguismo.jpeg"
               alt="Estudiantes diversos posando frente a una pared de ladrillos con vegetación verde"
             />
           </div>
@@ -56,7 +56,7 @@ export default function WhoWeAre() {
       </div>
 
       {/* Mobile Image */}
-      <img className="rounded-b-lg md:hidden" src="/src/assets/images/foto_bilinguismo.jpeg" alt="billingual teacher with students" />
+      <img className="rounded-b-lg md:hidden" src="/images/foto_bilinguismo.jpeg" alt="billingual teacher with students" />
     </div>
   );
 }

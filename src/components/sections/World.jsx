@@ -48,7 +48,7 @@ export default function World() {
           </article>
         </div>
         <figure>
-          <img src="/src/assets/images/world-map.png" alt="world map" />
+          <img src="/images/world-map.png" alt="world map" />
         </figure>
       </section>
 
@@ -114,7 +114,7 @@ export default function World() {
             {/* World Map */}
             <div className="">
               <figure className="w-full">
-                <img className="w-full h-auto object-contain" src="/src/assets/images/world-map.png" alt="Mapa mundial con ubicaciones globales" />
+                <img className="w-full h-auto object-contain" src="/images/world-map.png" alt="Mapa mundial con ubicaciones globales" />
               </figure>
             </div>
           </section>

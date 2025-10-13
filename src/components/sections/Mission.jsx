@@ -51,7 +51,7 @@ export default function Mission() {
       <div className="hidden md:block bg-gradient-to-t to-blue-100 from-white rounded-lg overflow-hidden">
         {/* Jetpack Illustration */}
         <section className=" rounded-b-lg flex justify-center">
-          <figure className="w-full h-[341px] max-w-[840px] bg-[url('/src/assets/images/jet-pack.png')] bg-cover bg-top"></figure>
+          <figure className="w-full h-[341px] max-w-[840px] bg-[url('/images/jet-pack.png')] bg-cover bg-top"></figure>
         </section>
 
         {/* Title */}
@@ -89,7 +89,7 @@ export default function Mission() {
 
       {/* Mobile Jetpack Section */}
       <section className="bg-white rounded-b-lg md:hidden">
-        <figure className="max-w-[340px] mx-auto h-[134px] bg-[url('/src/assets/images/jet-pack.png')] bg-cover bg-top"></figure>
+        <figure className="max-w-[340px] mx-auto h-[134px] bg-[url('/images/jet-pack.png')] bg-cover bg-top"></figure>
       </section>
     </div>
   );
