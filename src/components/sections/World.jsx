@@ -105,7 +105,7 @@ export default function World() {
                 <h4 className="text-4xl font-bold">{isLoading ? "..." : metrics ? metrics.total_staff : "28"}</h4>
                 <p className="text-xl font-bold">Staff</p>
               </div>
-              <div className="border-4 border-blue-900 text-blue-900 p-4 rounded-lg flex flex-wrap gap-4 items-center justify-center">
+              <div className="border-4 border-purple-900 text-purple-900 p-4 rounded-lg flex flex-wrap gap-4 items-center justify-center">
                 <h4 className="text-4xl font-bold">{isLoading ? "..." : metrics ? metrics.total_teachers : "44"}</h4>
                 <p className="text-xl font-bold">Profesores</p>
               </div>

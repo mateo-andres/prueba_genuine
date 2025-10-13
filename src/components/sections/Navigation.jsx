@@ -12,7 +12,7 @@ export default function Navigation() {
           </button>
           <GE />
         </div>
-        <ul className="space-y-2 text-blue-900">
+        <ul className="space-y-2 text-blue-900 text-sm">
           <li>
             <a href="#inicio" className="hover:underline">
               Inicio
@@ -36,17 +36,20 @@ export default function Navigation() {
         </ul>
       </nav>
       {/* Desktop Pagination Arrows */}
-      <div className="hidden md:flex fixed bottom-8 right-8 space-x-2 z-10">
-        <button className="w-8 h-8 bg-purple-300/80 rounded-full flex items-center justify-center text-white hover:bg-purple-400/80 transition-colors">
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-          </svg>
-        </button>
-        <button className="w-8 h-8 bg-purple-300/80 rounded-full flex items-center justify-center text-white hover:bg-purple-400/80 transition-colors">
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-          </svg>
-        </button>
+      <div className="hidden md:flex fixed bottom-8 right-8 z-10">
+        <div className="bg-purple-300/80 rounded-full px-4 py-2 flex items-center space-x-3 hover:bg-purple-400/80 transition-colors">
+          <button className="text-purple-200 hover:text-white transition-colors">
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+          <div className="w-px h-4 bg-white/30"></div>
+          <button className="text-purple-800 hover:text-white transition-colors">
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
       </div>
     </div>
   );

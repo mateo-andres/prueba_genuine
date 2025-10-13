@@ -3,7 +3,7 @@ import Vision from "../icons/Vision";
 
 export default function Mission() {
   return (
-    <div>
+    <div id="quienes-somos">
       <div className="-z-10 absolute -top-10 -left-30">
         <Mision />
         <Vision />
@@ -48,7 +48,7 @@ export default function Mission() {
       </section>
 
       {/* Desktop Layout */}
-      <div className="hidden md:block bg-gradient-to-t to-blue-100 from-white rounded-lg overflow-hidden">
+      <div className="hidden md:block bg-gradient-to-t to-blue-100 via-white from-white rounded-lg overflow-hidden">
         {/* Jetpack Illustration */}
         <section className=" rounded-b-lg flex justify-center">
           <figure className="w-full h-[341px] max-w-[840px] bg-[url('/images/jet-pack.png')] bg-cover bg-top"></figure>

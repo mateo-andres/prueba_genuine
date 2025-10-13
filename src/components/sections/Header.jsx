@@ -2,7 +2,10 @@ import LogoGE from "../icons/logo_GE";
 
 export default function Header() {
   return (
-    <header className="w-full bg-[url('/images/happy_family.jpg')] bg-[length:200%] md:bg-[length:115%] bg-bottom bg-no-repeat bg-[rgb(204,195,183)] grid grid-rows-2 p-3 rounded-lg md:relative md:h-[600px] md:bg-left-bottom md:overflow-hidden md:grid-rows-none">
+    <header
+      id="inicio"
+      className="w-full bg-[url('/images/happy_family.jpg')] bg-[length:200%] md:bg-[length:115%] bg-bottom bg-no-repeat bg-[rgb(204,195,183)] grid grid-rows-2 p-3 rounded-lg md:relative md:h-[600px] md:bg-left-bottom md:overflow-hidden md:grid-rows-none"
+    >
       {/* Mobile Layout */}
       <article className="md:hidden max-w-sm mx-auto">
         <div className="bg-gradient-to-t from-blue-100 to-purple-300 px-4 py-6 rounded-t-lg">

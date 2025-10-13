@@ -3,7 +3,7 @@ import Apps from "../icons/Apps";
 
 export default function Join() {
   return (
-    <section className="hidden md:block relative">
+    <section id="unete" className="hidden md:block relative">
       <figure>
         <img src="/images/join.jpg" alt="image of a teacher and students in the nature" />
       </figure>

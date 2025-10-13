@@ -2,7 +2,7 @@ import Play from "../icons/Play";
 
 export default function WhoWeAre() {
   return (
-    <div>
+    <div id="somos-estadounidenses">
       {/* Mobile Layout */}
       <section className="bg-white rounded-t-lg p-6 grid gap-4 md:hidden">
         <h2 className="text-2xl font-bold">¿Quiénes somos?</h2>
