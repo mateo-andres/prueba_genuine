@@ -1,5 +1,5 @@
 import LogoGE from "../icons/logo_GE";
-import Apps from "../icons/apps";
+import Apps from "../icons/Apps";
 
 export default function Join() {
   return (
