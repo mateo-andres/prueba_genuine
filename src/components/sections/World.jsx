@@ -72,47 +72,47 @@ export default function World() {
 
       {/* Desktop Layout */}
       <div className="hidden md:block bg-white rounded-lg overflow-hidden">
-        <div className="grid lg:grid-cols-2 min-h-[600px]">
+        <div className="grid lg:grid-cols-3 min-h-[600px]">
           {/* Left Column - Countries List */}
           <section className="p-8 bg-white">
-            <h2 className="text-3xl font-bold mb-8">Somos del mundo</h2>
+            <h2 className="text-6xl font-bold mb-8">Somos del mundo</h2>
 
-            <div className="space-y-4">
-              <div className="bg-orange-500 text-white p-4 rounded-lg">
+            <div className="">
+              <div className="bg-orange-500 text-white p-4 ">
                 <p className="font-medium">
                   Colombia, Ecuador, Perú, México, Panamá, Costa Rica, Chile, Argentina, Estados Unidos, Emiratos Árabes, Brasil, República
                   Dominicana, Irlanda, Canadá, España, Portugal, China, Italia.
                 </p>
               </div>
-              <div className="bg-purple-300 text-white p-4 rounded-lg">
+              <div className="bg-purple-300 text-white p-4 ">
                 <p className="font-medium">Estados Unidos, Colombia, Perú, Brasil, Chile, México, Venezuela.</p>
               </div>
-              <div className="bg-blue-900 text-white p-4 rounded-lg">
+              <div className="bg-purple-900 text-white p-4 ">
                 <p className="font-medium">Colombia, Sudáfrica, Filipinas, Chile, México, Singapur.</p>
               </div>
             </div>
           </section>
 
           {/* Right Column - Statistics and Map */}
-          <section className="p-8 bg-white">
+          <section className="p-8 bg-white col-span-2">
             {/* Statistics Boxes */}
             <div className="grid grid-cols-3 gap-4 mb-8">
-              <div className="bg-orange-500 text-white p-4 rounded-lg text-center">
-                <h4 className="text-2xl font-bold">{isLoading ? "..." : metrics ? `+${metrics.total_students}` : "+400"}</h4>
-                <p className="text-sm font-medium">Estudiantes</p>
+              <div className="border-4 border-orange-500 text-orange-500 p-1 rounded-lg flex gap-4 items-center justify-center">
+                <h4 className="text-4xl font-bold">{isLoading ? "..." : metrics ? `+${metrics.total_students}` : "+400"}</h4>
+                <p className="text-xl font-bold">Estudiantes</p>
               </div>
-              <div className="bg-purple-300 text-white p-4 rounded-lg text-center">
-                <h4 className="text-2xl font-bold">{isLoading ? "..." : metrics ? metrics.total_staff : "28"}</h4>
-                <p className="text-sm font-medium">Staff</p>
+              <div className="border-4 border-purple-300 text-purple-300 p-4 rounded-lg flex gap-4 items-center justify-center">
+                <h4 className="text-4xl font-bold">{isLoading ? "..." : metrics ? metrics.total_staff : "28"}</h4>
+                <p className="text-xl font-bold">Staff</p>
               </div>
-              <div className="bg-blue-900 text-white p-4 rounded-lg text-center">
-                <h4 className="text-2xl font-bold">{isLoading ? "..." : metrics ? metrics.total_teachers : "44"}</h4>
-                <p className="text-sm font-medium">Profesores</p>
+              <div className="border-4 border-blue-900 text-blue-900 p-4 rounded-lg flex gap-4 items-center justify-center">
+                <h4 className="text-4xl font-bold">{isLoading ? "..." : metrics ? metrics.total_teachers : "44"}</h4>
+                <p className="text-xl font-bold">Profesores</p>
               </div>
             </div>
 
             {/* World Map */}
-            <div className="bg-blue-100 rounded-lg p-4">
+            <div className="">
               <figure className="w-full">
                 <img className="w-full h-auto object-contain" src="/src/assets/images/world-map.png" alt="Mapa mundial con ubicaciones globales" />
               </figure>

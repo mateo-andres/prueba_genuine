@@ -95,7 +95,7 @@ export default function CreateUser({ fetchMetrics }) {
 
   return (
     <section className="bg-white rounded-lg shadow-lg p-6 md:p-8 mt-8">
-      <h2 className="text-2xl md:text-3xl font-bold mb-6 text-gray-800">Registrar Nuevo Estudiante</h2>
+      <h2 className="text-2xl md:text-3xl font-bold mb-6 text-blue-900">Registrar Nuevo Estudiante</h2>
 
       <form onSubmit={handleSubmit} className="grid gap-4 grid-cols-1 md:grid-cols-2">
         <InputComponent label="Primer Nombre" name="first_name" value={formData.first_name} onChange={handleInputChange} disabled={isSubmitting} />
@@ -125,7 +125,7 @@ export default function CreateUser({ fetchMetrics }) {
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full bg-blue-600 hover:bg-blue-700 disabled:bg-gray-400 disabled:cursor-not-allowed text-white font-bold py-4 px-6 rounded-lg shadow-md hover:shadow-lg md:col-span-2 md:w-fit mx-auto"
+          className="w-full bg-blue-900 hover:bg-blue-700 disabled:bg-gray-400 disabled:cursor-not-allowed text-white font-bold py-4 px-6 rounded-lg shadow-md hover:shadow-lg md:col-span-2 md:w-fit mx-auto"
           aria-label="Registrar estudiante"
         >
           {isSubmitting ? "Registrando Estudiante..." : "Registrar Estudiante"}

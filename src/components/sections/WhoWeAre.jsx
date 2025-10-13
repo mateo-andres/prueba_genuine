@@ -21,31 +21,26 @@ export default function WhoWeAre() {
 
       {/* Desktop Layout */}
       <div className="hidden md:block bg-white rounded-lg overflow-hidden">
-        <div className="grid lg:grid-cols-2 min-h-[500px]">
+        <div className="grid lg:grid-cols-2 ">
           {/* Left Column - Text Content */}
           <section className="p-8 flex flex-col justify-center">
             <h2 className="text-3xl font-bold mb-6">De Estados Unidos para el mundo</h2>
             <p className="text-lg mb-6 leading-relaxed">
-              Somos un colegio virtual privado estadounidense constituido y registrado en el estado de <b>La Florida con el código 8822</b> ante el
-              Departamento de Educación de Florida.
+              Nuestro colegio digital privado está constituido y registrado en Estados Unidos ante el{" "}
+              <b>Florida Department of Education con el código 8822.</b>
             </p>
 
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mb-6">
-              <button className="bg-white border-2 border-blue-900 text-blue-900 px-6 py-3 rounded-lg font-bold hover:bg-blue-50 transition-colors">
-                Conoce el nuestro aquí
-              </button>
-              <button className="bg-blue-900 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-800 transition-colors">Registro legal</button>
-            </div>
-
-            {/* Play Button Section */}
-            <div className="flex items-center gap-4 p-4 bg-purple-100 rounded-lg">
-              <div className="flex-shrink-0">
-                <Play />
-              </div>
-              <p className="text-base font-medium">
-                Mira como encontrar el registro legal de <b>Genuine</b>
-              </p>
+              <p className=" text-blue-900 px-6 py-3 rounded-lg font-bold ">Conoce el nuestro aquí</p>
+              <a
+                href="https://studyatgenuine.com/registro-legal"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-blue-900 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-800 transition-colors"
+              >
+                Registro legal
+              </a>
             </div>
           </section>
 
