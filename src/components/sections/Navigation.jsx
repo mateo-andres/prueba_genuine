@@ -12,7 +12,7 @@ export default function Navigation() {
           </button>
           <GE />
         </div>
-        <ul className="space-y-2 text-blue-900 text-sm">
+        <ul className="space-y-2 text-blue-900 text-xs font-bold">
           <li>
             <a href="#inicio" className="hover:underline">
               Inicio

@@ -19,7 +19,7 @@ export default function Join() {
           <p>Síguenos en Redes Sociales y conoce nuestra gran comunidad digital</p>
           <Apps className="mt-4 max-h-[20px] mx-auto" />
         </div>
-        <p className="text-center text-sm font-bold text-white m-4 hidden md:block">studyatgenuine.com</p>
+        <p className="text-center text-lg font-bold text-white m-4 hidden md:block">studyatgenuine.com</p>
       </article>
     </section>
   );
