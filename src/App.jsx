@@ -10,7 +10,7 @@ function App() {
     <div className="relative min-h-screen bg-[#efefef]">
       <Navigation />
 
-      <main className="max-w-[1500px] mx-auto grid gap-8 px-4 py-8 pt-4 text-blue-900 md:pr-64">
+      <main className="max-w-[1500px] mx-auto grid gap-8 p-4 pb-8 text-blue-900 md:pr-64">
         <Header />
         <Mission />
         <WhoWeAre />

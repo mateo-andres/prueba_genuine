@@ -5,7 +5,7 @@ export default function Join() {
   return (
     <section id="unete" className="hidden md:block relative">
       <figure>
-        <img src="/images/join.jpg" alt="image of a teacher and students in the nature" />
+        <img className="rounded-lg" src="/images/join.jpg" alt="image of a teacher and students in the nature" />
       </figure>
       <div className="bg-white p-2 px-8 w-fit rounded-full absolute top-8 right-8 hidden lg:block">
         <LogoGE className="max-h-[100px]" />
