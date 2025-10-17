@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import CreateUser from "./CreateUser";
+import CreateUser from "./integration/CreateUser";
+import HubSpot from "./integration/HubSpot";
 
 export default function World() {
   const [metrics, setMetrics] = useState(null);
@@ -121,6 +122,7 @@ export default function World() {
         </div>
       </div>
       <CreateUser fetchMetrics={fetchMetrics} />
+      <HubSpot />
     </div>
   );
 }
